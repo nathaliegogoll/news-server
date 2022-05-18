@@ -1,4 +1,3 @@
-const e = require('express');
 const express = require('express')
 const Parser = require('rss-parser')
 var cors = require('cors')
