@@ -82,7 +82,6 @@ app.get('/', async (req, res) => {
         }
     }
     newsLinks = newsLinks.slice(0,10);
-    console.log(newsLinks.length);
     res.status(200).json(newsLinks);
 })
 
